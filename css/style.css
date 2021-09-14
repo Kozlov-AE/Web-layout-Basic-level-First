@@ -79,16 +79,12 @@ p {
 .marked-block{
   border-radius: 20px;
   padding: 30px;
-  background-color: #36db0c;
-}
-
-.marked-block{
+  background-color: #f3f2f6;
   margin: 0;
-  margin-bottom: 40px;
 }
 
-.marked-block:last-child{
-  margin-bottom: 0px;
+.marked-block:not(:last-child){
+  margin-bottom: 40px;
 }
 
 .marked-block p:last-child{
@@ -96,6 +92,16 @@ p {
 }
 
 .marked-block p{
+  margin-bottom: 20px;
+}
+
+.content-block ul {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.content-block li {
+  margin: 0;
   margin-bottom: 20px;
 }
 
@@ -118,16 +124,6 @@ figure {
 h2,
 h3 {
   margin-bottom: 10px;
-}
-
-.content-block ul {
-  padding-left: 15px;
-  margin-bottom: 0;
-}
-
-.content-block li {
-  margin: 0;
-  margin-bottom: 20px;
 }
 
 li:last-child {
